@@ -40,4 +40,4 @@ jobs:
           app-name: 'az400FuncApp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC151FA2DA444191AB43C2EBF8002A87 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8FC44F2F25C64A1889F8E74D8BB63F2D }}
